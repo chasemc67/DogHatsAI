@@ -150,5 +150,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-
+Data/
 mask_rcnn_coco.h5
