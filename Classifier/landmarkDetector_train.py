@@ -10,7 +10,9 @@ x = base_model.output
 
 # look at what removing the top does, compare that with selecting a lower layer directly
 # pop some fully-connected layers on top, which have the right number of output layers based on training data
-x = Dense(1024, activation='relu')(x)   # not sure if 1024 is the right number here. also not sure on activation    
+x = Dense(1024, activation='relu')(x)   # not sure if 1024 is the right number here. 
+# Not sure if the activation is right or if the output should even be a DENSE
+# Yolo seems to use a Conv2D as output, but thats because of all its anchor boxes... 
 predictions = Dense(4, activation='relu')(x)
 
 # this is the model we will train
