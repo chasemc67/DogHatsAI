@@ -1,11 +1,6 @@
-# Installation
-pull the Mask R-CNN repo and install it 
-`git clone https://github.com/matterport/Mask_RCNN.git`
-```
-cd Mask_RCNN
-python setup.py install
-```
-Download [model weights](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)
+# -- In Progress --   
+  
+DogHatsAI is a Convolutional Neural Network which detects Dog Facial Landmark Features
 
 `conda create --name <env> --file requirements.txt`
 
@@ -13,5 +8,3 @@ Download [model weights](https://github.com/matterport/Mask_RCNN/releases/downlo
 `conda list -e > requirements.txt`
 
 
-#### References
-https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/
